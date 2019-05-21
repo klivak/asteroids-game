@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+
+  <title>Asteroids</title>
+
+<style type="text/css">
+</style>
+
+</head>
+
+<body>
+
+    <canvas id="gameCanvas" width="700" height="500"></canvas>
+
+    <script type="text/javascript">
+        const FPS = 30; // frames per second
+
+
+        var canv = document.getElementById('gameCanvas');
+        var ctx = canvas.getContext("2d");
+
+        // set up the game loop
+        setInterval(update, 1000 / FPS);
+
+        function update() {
+            // draw space
+
+            ctx.fillStyle = "black";
+            ctx.fillRect(0,0, canv.width, canv.height);
+            
+
+            // draw ship
+
+            // rotate ship
+
+            // move the ship
+
+        
+        }
+    </script>
+</body>
+
+</html>
